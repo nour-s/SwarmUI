@@ -1,11 +1,11 @@
-name: Release: Build & Publish (GHCR Only)
+name: Release - Build & Publish (GHCR Only)
 
 on:
   push:
     tags:
-      - 'v*'            # publish only on tags like v1.2.3
+      - 'v*'
   pull_request:
-    branches: [ master, main ]   # build to verify, but do NOT push
+    branches: [ master, main ]
   workflow_dispatch:
 
 permissions:

@@ -11,7 +11,7 @@ permissions:
   packages: write
   id-token: write
 env:
-  IMAGE_GH: ghcr.io/mcmonkeyprojects/swarmui
+  IMAGE_GH: ghcr.io/nour-s/swarmui
 jobs:
   docker:
     runs-on: ubuntu-latest
